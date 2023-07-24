@@ -54,6 +54,6 @@ cardExpire.addEventListener("input", showExpirationDate);
 const showCVC = () => {
     cvcCodeShow.innerHTML = cvcCode.value;
 }
-
+cvcCode.addEventListener("input", showCVC);
 
 
